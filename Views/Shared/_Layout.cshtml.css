@@ -1,0 +1,292 @@
+﻿
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html,body {
+
+    height: 100%;
+
+}
+
+.center {
+    max-width: 100%;
+    margin: 0 "auto";
+    padding: 0 2%;
+}
+
+
+main {
+
+    width: 100%;
+    min-height: 100%;
+    background-image: url("https://quatrorodas.abril.com.br/wp-content/uploads/2021/05/0x0-ModelS_05.jpg?quality=70&strip=info");
+    background-position: center;
+    background-size: cover;
+
+}
+
+section.main1 {
+
+    width: 100%;
+    min-height: 100%;
+    background-image: url('MODEL.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    position: relative;
+    left: -8%;
+    top: -35px;
+   
+}
+
+.logo img {
+
+    width: 109px;
+
+}
+
+.menu {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.menu1 {
+
+    margin-top: 20px;
+    margin-right: -7%;
+
+}
+
+.menu a {
+    text-align: right;
+    margin: 0 10px;
+    color: black;
+    text-decoration: none;
+    transition: 0.3s;
+    padding: 3px 4px;
+}
+
+.menu1 a {
+    text-align: right;
+    margin: 0;
+    color: black;
+    text-decoration: none;
+    transition: 0.3s;
+    padding: 3px 4px;
+}
+
+.menu a:hover {
+    border-radius: 5px;
+    background-color: rgba(250, 250, 250, 0.4);
+}
+
+.menu1 a:hover {
+    border-radius: 5px;
+    background-color: rgba(250, 250, 250, 0.4);
+}
+
+.menu1 {
+
+    margin-top: 20px;
+    margin-right: -7%;
+
+}
+
+.menu1 a {
+    text-align: right;
+    margin: 0;
+    color: black;
+    text-decoration: none;
+    transition: 0.3s;
+    padding: 3px 4px;
+}
+
+
+.menu1 a:hover {
+    border-radius: 5px;
+    background-color: rgba(250, 250, 250, 0.4);
+}
+
+.menu2 {
+     
+    margin-top: 20px;
+    margin-right: -7%;
+
+}
+
+.menu2 a {
+    text-align: right;
+    margin: 0 10px;
+    color: black;
+    text-decoration: none;
+    transition: 0.3s;
+    padding: 3px 4px;
+}
+
+.menu2 a:hover {
+    border-radius: 5px;
+    background-color: rgba(250, 250, 250, 0.4);
+}
+
+.title {
+    text-align: center;
+}
+
+.title h1 {
+
+    margin: auto;
+    color: black;
+    font-size: 45px;
+    letter-spacing: 1.2px;
+    font-weight: bold;
+
+}
+
+.title p {
+
+    color: rgb(46, 43, 43);
+    margin-top: 10px;
+}
+
+.title p a {
+    color: rgb(68, 67, 67)
+}
+
+.title1 {
+    text-align: center;
+}
+
+.title1 h1 {
+    
+    margin: auto;
+    color: rgb(8, 8, 8);
+    font-size: 35px;
+    letter-spacing: 1.3px;
+
+}
+.title1 p {
+
+    color: rgb(46, 43, 43);
+    margin-top: 10px;
+}
+
+.title1 p a {
+    color: rgb(68, 67, 67)
+}
+
+.btn {
+    position: absolute;
+    bottom: 55px;
+    width: 100%;
+    left: 0;
+    text-align: center;
+
+}
+
+.btn a {
+    display: inline-block;
+    padding: 8px 50px;
+    margin: 0 15px;
+    background-color: #333;
+    color: white;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+
+
+.btn1 {
+    position: absolute;
+    bottom: 20px;   
+    width: 110%;
+    left: 220px;
+    margin-bottom: 70px;
+    text-align: center;
+
+}
+
+.btn1 a {
+    display: inline-block;
+    padding: 8px 50px;
+    margin: 0 15px;
+    background-color: transparent !important;
+    border-width: 2px !important;
+    border-color: white !important;
+    border-radius: 2em;
+    color: white !important;
+    border:solid;
+    text-decoration: none;
+}
+ .btn1 a:hover{
+        
+    background-color: white !important;
+    color: black !important;
+
+}
+.nome1  {
+    position:relative;
+    bottom: -342px;
+    width: 130%;
+    left: -39%;
+    text-align: center;
+
+}
+
+.nome1{
+    display: inline-block;
+    padding: 8px 50px;
+    margin: 0 30px;
+    color: rgb(253, 250, 250);
+    border-radius: px;
+    text-decoration: none;
+    font-size: 105%;
+}
+
+.nome2  {
+    position:relative;
+    bottom: -280px;
+    width: 130%;
+    left: -24%;
+    text-align: center;
+
+}
+
+.nome2 {
+    display: inline-block;
+    padding: 8px 50px;
+    margin: 0 15px;
+    color: rgb(253, 250, 250);
+    border-radius: 18px;
+    text-decoration: none;
+    font-size: 105%;
+}
+
+.nome3  {
+    position:relative;
+    bottom: -215px;
+    width: 130%;
+    left: -11%;
+    text-align: center;
+
+}
+
+.nome3{
+    display: inline-block;
+    padding: 8px 50px;
+    margin: 0 15px;
+    color: rgb(253, 250, 250);
+    border-radius: 18px;
+    text-decoration: none;
+    font-size: 105%;
+}
